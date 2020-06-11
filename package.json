@@ -1,0 +1,16 @@
+{
+  "name": "tetris",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ilya Znamensky",
+  "license": "MIT",
+  "scripts": {
+    "serve": "serve public",
+    "dev": "rm -rf public && cp -a static/ public/ && tsc -w",
+    "build": "rm -rf public && cp -a static/ public/ && tsc"
+  },
+  "dependencies": {
+    "serve": "11.3.1",
+    "typescript": "3.9.3"
+  }
+}
